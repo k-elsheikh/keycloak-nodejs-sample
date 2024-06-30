@@ -1,0 +1,23 @@
+{
+  "name": "RedHatKeyCloak",
+  "version": "1.0.0",
+  "description": "This is a test integration with Red Hat KeyCloak",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Red Hat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "hogan-express": "^0.5.2",
+    "keycloak": "^1.2.0",
+    "keycloak-connect": "^24.0.3",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
